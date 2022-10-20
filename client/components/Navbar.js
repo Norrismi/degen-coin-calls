@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <nav className={`flex  flex-col p-4 md:p-0  md:flex-row md:justify-end   bg-[#6e2594] ${open ? 'top-20' : 'flex-row'}`}>
+        <nav className={`flex  flex-col p-4 md:p-0  md:flex-row md:justify-end   bg-[#6e2594]`}>
             <Link href="/">
                 <a className=' text-[#ef6461] hover:text-white w-fit hover:bg-[#ef6461] p-4 rounded-sm'>Calls</a>
             </Link>
